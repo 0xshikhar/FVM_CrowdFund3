@@ -1,6 +1,6 @@
 import createCampaign from './create-campaign.svg';
 import dashboard from './dashboard.svg';
-import logo from './logo.svg';
+import logo from './crowdfund-1-bg.png';
 import logout from './logout.svg';
 import payment from './payment.svg';
 import profile from './profile.svg';
