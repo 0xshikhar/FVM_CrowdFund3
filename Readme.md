@@ -1,13 +1,13 @@
 # CrowdFund3
-CrowdFund3 is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Mantle Network**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
+CrowdFund3 is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Binance Network**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
 
 ### Smart Contract (on Binance Testnet)
 CrowdFund3 Marketplace- 0xBf74142818c2e5E42F7f7349a1Af02a1Dcd5814D
 
 ## Core Objectives & Features -
-* 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly. We enable people to create their own NFT DAOs. 
+* 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly.
 * 🙏 Support: We aim to support real-world projects by leveraging Blockchain at its core. CrowdFund3 is providing a much better approach to solving crowdfunding and donation platform problems that exist in current web2 platforms.
-* 💵 Reward: CrowdFund3 provides a new way of raising funds. Everyone who funds, support, or donates via CrowdFund3 will get a unique project-related NFT for their contribution that can be verified on-chain. Later, by holding NFTs, HODLers can earn yield whenever Creator or Project makes profits.
+* 💵 Reward: CrowdFund3 provides a new way of raising funds. Everyone who funds, support, or donates via CrowdFund3 will get a unique project-related NFT for their contribution that can be verified on-chain. These NFTs will transferred to users later once funding of the project is completed.
 * 🔔 Update: With the help of EPNS and CrowdFund3 DAO, users are notified whenever there is any update from the project, creators, or organizations after they got funding.
 * 🌍 CrowdFund3 DAO: DAO members will take all the essential decisions like accepting the listing proposal, distribution of funding, and distribution of profit for the smooth functioning of the platform.
 * 🎯GOAL: Our Ultimate Goal is to connect & support people using blockchain in such a way that they can leverage the technology and bring some positive changes in the world.
