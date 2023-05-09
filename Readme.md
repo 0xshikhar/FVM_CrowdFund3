@@ -25,10 +25,10 @@ It provides an opportunity for donators to make donations by being completely an
 
 ### Some Screenshots of the current Web App
 **Landing Page**
-![Landing Page](./images/cf3-1.png) 
+![Landing Page](/images/cf3-1.png) 
 **Project Page**
-![Project Page](./images/cf3-2.png)
+![Project Page](/images/cf3-2.png)
 **Listing Page**
-![Donation Page](./images/cf3-listing.png)
+![Donation Page](/images/cf3-listing.png)
 **Connecting Wallet**
-![Single Product](./images/cf3-popup.png)
+![Single Product](/images/cf3-popup.png)
