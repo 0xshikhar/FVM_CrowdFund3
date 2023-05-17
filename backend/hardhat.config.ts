@@ -23,7 +23,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.4",
+    version: "0.8.9",
     settings: {
       optimizer: {
         enabled: true,
@@ -49,6 +49,11 @@ const config: HardhatUserConfig = {
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    goerli: {
+      url: "https://eth-goerli.g.alchemy.com/v2/dIapWnteM78mUNXiFdEoJb6F9-6w2-hT",
+      accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+      allowUnlimitedContractSize: true,
+    },
 
     sepolia: {
       url: "https://eth-sepolia.g.alchemy.com/v2/Kd1XQbFAa3ZboKORKFNQ9mmtcrM5PbZv",
@@ -65,6 +70,9 @@ const config: HardhatUserConfig = {
     //   enabled: process.env.REPORT_GAS !== undefined,
     //   currency: "USD",
     // },
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
   },
 };
 
