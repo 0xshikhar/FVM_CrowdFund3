@@ -28,25 +28,6 @@ const Profile = () => {
   const [data, setData] = useState([]);
   // const address = router.query.address;
 
-  // console.log("address", address)
-
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const response = await fetch(`https://explorer.testnet.mantle.xyz/api?module=account&action=tokenlist&address=${router.query.address}`);
-  //     const jsonData = await response.json();
-  //     if (!response.ok) {
-  //       throw new Error("Network response was not ok");
-  //     }
-  //     console.log("JSON DATA", jsonData)
-  //     setData(jsonData);
-  //   };
-  //   fetchData();
-  // }, [address]);
-
-
-
-
   // const { contract: nftCollection } = useContract(NFT_COLLECTION_ADDRESS);
 
 
@@ -67,6 +48,8 @@ const Profile = () => {
         />
         <div className={styles.profileName}>
           <div>0xshikhar.eth</div>
+          <div>Full Stack Blockchain Developer</div>
+          
           {/* {router.query.address} */}
         </div>
       </div>

@@ -1,8 +1,10 @@
 # CrowdFund3
-CrowdFund3 is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Binance Network**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
+CrowdFund3 is a decentralized ecosystem for raising funds, supporting creators, and making donations to support needy people and non-profit organizations built on **Filecoin Virtual Machine(FVM Chain)**. We are trying to solve real-world problems using the concept of Decentralized Autonomous Organisation.
 
-### Smart Contract (on Binance Testnet)
-CrowdFund3 Marketplace- 0xBf74142818c2e5E42F7f7349a1Af02a1Dcd5814D
+### Smart Contract (on Filecoin Testnet)
+CrowdFund3 Marketplace- 0xf3E04ec30d589cF4Ec62CEc425FC0d1D6DA3596B
+Axelor GMP Contract (Filecoin) - 0x2cdc47369bb86c05198ea2cff8c548b73b919bb1
+Axelor GMP Contract (Binance) - 0x9C21B1dBfA0f4e2ff2d918Cb6090D828CC345efF
 
 ## Core Objectives & Features -
 * 🔗 Connect: We bridge the gap between the real world and the web3 world by enabling projects, creators, and non-profit organizations to get funds and support seamlessly.
