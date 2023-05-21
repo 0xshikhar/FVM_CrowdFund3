@@ -1,9 +1,9 @@
-import {
-  useContract,
-  useOwnedNFTs,
-  useValidDirectListings,
-  useValidEnglishAuctions,
-} from "@thirdweb-dev/react";
+// import {
+//   useContract,
+//   useOwnedNFTs,
+//   useValidDirectListings,
+//   useValidEnglishAuctions,
+// } from "@thirdweb-dev/react";
 // import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 
@@ -21,8 +21,7 @@ const [randomColor1, randomColor2, randomColor3, randomColor4] = [
 ];
 
 
-
-export default function Profile() {
+const Profile = () => {
   // const router = useRouter();
   // const [tab, setTab] = useState<"nfts" | "coins" | "listings" | "auctions">("nfts");
   const [tab, setTab] = useState("nfts");
@@ -52,8 +51,7 @@ export default function Profile() {
 
 
   return (
-    <div className="pt-4 h-full text-white bg-black">
-      {/* <Header /> */}
+    <div className="rounded h-screen text-white bg-black">
       <div className="px-6 pt-4">
         <div
           className={styles.coverImage}
@@ -67,22 +65,16 @@ export default function Profile() {
             background: `linear-gradient(90deg, ${randomColor3}, ${randomColor4})`,
           }}
         />
-        <h1 className={styles.profileName}>
+        <div className={styles.profileName}>
           <div>0xshikhar.eth</div>
           {/* {router.query.address} */}
-          {/* {router.query.address ? (
-            router.query.address.toString().substring(0, 4) +
-            "..." +
-            router.query.address.toString().substring(38, 42)
-          ) : (
-            <Skeleton width="320" />
-          )} */}
-        </h1>
+        </div>
       </div>
     </div>
   );
 }
 
+export default Profile;
 
 // import React, { useState, useEffect } from 'react'
 
